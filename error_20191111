@@ -1,0 +1,6 @@
+vagrant@ubuntu-xenial:~/workspace$ ruby sample_pg.rb
+Traceback (most recent call last):
+        3: from sample_pg.rb:6:in `<main>'
+        2: from /home/vagrant/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/pg-1.1.4/lib/pg.rb:56:in `connect'
+        1: from /home/vagrant/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/pg-1.1.4/lib/pg.rb:56:in `new'
+/home/vagrant/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/pg-1.1.4/lib/pg.rb:56:in `initialize': FATAL:  database "ubuntu" does not exist (PG::ConnectionBad)
